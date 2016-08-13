@@ -1,0 +1,11 @@
+{
+  "name": "learn-pwa",
+  "version": "1.0.0",
+  "description": "Tutorial from https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alberto Fernandez <albertofdzm@gmail.com>",
+  "license": "MIT"
+}
