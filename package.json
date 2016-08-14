@@ -12,6 +12,7 @@
     "knockout": "^3.4.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.14.0",
     "eslint": "^3.3.0",
     "eslint-config-standard": "^5.3.5",
     "eslint-plugin-promise": "^2.0.1",
