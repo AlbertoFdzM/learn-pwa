@@ -1,4 +1,13 @@
 /* globals Page Arrivals ko */
+// Register the service worker if available.
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js').then(function (reg) {
+    console.log('Successfully registered service worker', reg)
+  }).catch(function (err) {
+    console.warn('Error whilst registering service worker', err)
+  })
+}
+
 window.addEventListener('online', function (ev) {
   // re-sync data with server
   console.log('You are online')
